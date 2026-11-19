@@ -103,7 +103,7 @@ export const projects = [
 
 
 export const education = [
-  { title: 'Bachelor of Computer Applications (BCA)', place: 'The Study Hall College, University of Lucknow', when: 'Aug 2023 – Aug 2026', score: '76% · CGPA 7.96' },
+  { title: 'Bachelor of Computer Applications (BCA)', place: ' University of Lucknow', when: 'Aug 2023 – Aug 2026', score: '77% · CGPA 8' },
   { title: 'Class 12 – Science', place: 'S.V.M. Inter College', when: '2022 – 2023', score: '79%' },
   { title: 'Class 10', place: 'S.V.M. Inter College', when: '2020 – 2021', score: '86%' },
 ]
