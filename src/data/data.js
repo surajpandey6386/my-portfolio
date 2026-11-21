@@ -115,19 +115,23 @@ export const certifications = [
     title: 'JavaScript Programming',
     org: 'Scaler Topics',
     year: 'Nov 2024',
-    image: '/certificates/javascript.jpg'
+    image: '/certificates/javascript.jpg',
+    description:
+      'Successfully completed JavaScript programming training, developing an understanding of JavaScript fundamentals, programming concepts, and the language used in modern web development.'
   },
   {
     title: 'Python Programming',
     org: 'Scaler Topics',
     year: 'Sep 2024',
-    image: '/certificates/python.jpg'
+    image: '/certificates/python.jpg',
+    description:
+      'Successfully completed Python programming training, gaining knowledge of Python fundamentals, programming logic, and essential concepts used in software development.'
   },
   {
     title: 'Introduction to SQL',
     org: 'Simplilearn SkillUp',
     year: 'Nov 2026',
-    image: '/certificates/sql.png',
+    image: '/certificates/sql.jpg',
     pending: false,
     issuedOn: '21 November 2026',
     certificateCode: '11060945',
