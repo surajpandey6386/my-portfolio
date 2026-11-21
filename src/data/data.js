@@ -131,7 +131,7 @@ export const certifications = [
     title: 'Introduction to SQL',
     org: 'Simplilearn SkillUp',
     year: 'Nov 2026',
-    image: '/certificates/sql.jpg',
+    image: '/certificates/sql.png',
     pending: false,
     issuedOn: '21 November 2026',
     certificateCode: '11060945',
