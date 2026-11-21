@@ -58,12 +58,11 @@ function CertCard({ c, i, open }) {
 
         <p className="muted">{c.org}</p>
 
-        {c.pending && (
-          <span className="badge">
-            <Clock size={13} />
-            Certificate in progress
-          </span>
-        )}
+        {c.description && (
+  <p className="cert-description muted">
+    {c.description}
+  </p>
+)}
       </div>
     </Reveal>
   )

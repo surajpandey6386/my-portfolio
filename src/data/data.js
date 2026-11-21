@@ -111,9 +111,29 @@ export const education = [
 export const roles = ['MERN Stack Developer','Full-Stack Web Developer','React.js Developer']
 // Set pending:false (and update year) once a certificate is received.
 export const certifications = [
-  { title: 'JavaScript Programming', org: 'Scaler Topics', year: 'Nov 2024', image: '/certificates/javascript.jpg' },
-  { title: 'Python Programming', org: 'Scaler Topics', year: 'Sep 2024', image: '/certificates/python.jpg' },
-  { title: 'Introduction to SQL', org: 'Simplilearn', year: '', pending: true },
+  {
+    title: 'JavaScript Programming',
+    org: 'Scaler Topics',
+    year: 'Nov 2024',
+    image: '/certificates/javascript.jpg'
+  },
+  {
+    title: 'Python Programming',
+    org: 'Scaler Topics',
+    year: 'Sep 2024',
+    image: '/certificates/python.jpg'
+  },
+  {
+    title: 'Introduction to SQL',
+    org: 'Simplilearn SkillUp',
+    year: 'Nov 2026',
+    image: '/certificates/sql.png',
+    pending: false,
+    issuedOn: '21 November 2026',
+    certificateCode: '11060945',
+    description:
+      'Successfully completed the Introduction to SQL online course offered by Simplilearn SkillUp on 21 November 2026. Demonstrated initiative and commitment to deepening technical skills and advancing professional knowledge.'
+  }
 ]
 export const achievements = [
   { title: 'Code Hackathon: Finalist', org: 'The Study Hall College', year: 'Sep 2025', image: '/certificates/hackathon.jpg' },
